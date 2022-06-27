@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Passion+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar{
+    border-bottom: 2px solid #e4e4e458;
+}
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgb(19 69 235 / 70%);
+}
+
+
+.aboutus h3{
+   font-size: 2.5rem;
+    font-weight: bold;
+   
+}
+.aboutus .bluetext{
+    color: #0846c9;
+}
+
+.aboutus p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.aboutus img{
+    width: 40%;
+}
+
+.successtory{}
+.successtory .left{
+    text-align: right;
+}
+.successtory .left h2 {
+    font-weight: bold;
+    color: #fc4141;
+    font-size: 38px;
+}
+
+.successtory .right{
+    text-align: left;
+}
+.successtory .right h2 {
+    font-weight: bold;
+    color: #021e5a;
+    font-size: 43px;
+}
+
+
+.services img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.services h4{
+    font-size: 1.2rem;
+}
+
+.services p{
+    font-size: 14px;
+}
+
+.service1{
+    background: #ffabab73;
+    padding: 40px;
+    border-radius: 5px;
+    width: 32%;
+}
+.service2{
+    background: #8181ff73;
+    padding: 40px;
+    border-radius: 3px;
+    width: 32%;
+}
+.service3{
+    background: #f8976d45;
+    padding: 40px;
+    border-radius: 3px;
+    width: 32%;
+}
+
+.service-item{
+    justify-content: space-between;
+}
+
+.footer{
+    background: rgb(14, 67, 241);
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.footer p{
+    margin: 0;
+}
+
+/******media_query****/
+
+
+@media(max-width: 576px){
+    .aboutus h3 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .aboutus img {
+        width: 50%;
+    }
+
+    .successtory .left{
+        width: 50%;
+    }
+    .successtory .right{
+        width: 50%;
+    }
+    .successtory .right h2{
+        font-size: 31px;
+    }
+
+    .service1, .service2, .service3{
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .services img{
+        width: 50%;
+    }
+
+   
+
+   
+
+   
+}
+
+
+@media(max-width: 767px){
+    .successtory .right h2 {
+        font-weight: bold;
+        color: #021e5a;
+        font-size: 33px;
+    }
+
+}
+
+@media(max-width: 992px){
+    .service1, .service2, .service3{
+        padding: 15px;
+    }
+}
+
+
+
+
+
